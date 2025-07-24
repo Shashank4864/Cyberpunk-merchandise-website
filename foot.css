@@ -1,0 +1,57 @@
+.row_1{
+    align-items: center;
+    display: flex;
+    border-bottom: 4px solid rgba(42, 41, 41, 0.621);
+    padding-bottom: 10px;
+}
+
+.column_1{
+    align-items: center;
+    color: #cbcbcb;
+    display: flex;
+    font-family: BlenderProBold, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.column_1 h4{
+    padding-left:80px;
+    padding-right: 40px;
+}
+
+.sm_icon img{
+    
+    padding-right: 10px;
+}
+
+.sm_icon_last img{
+    padding-right: 480px;
+}
+
+.column_2{
+    align-items: center;
+    display: flex;
+}
+
+.restrict img{
+    padding-right: 10px;
+}
+
+.row_2{
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid rgba(42, 41, 41, 0.621);
+}
+
+.row_2 a{
+    color: #00f0ff;
+    font-family: BlenderProBold, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}

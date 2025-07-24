@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  /* background-image: url("store_background_3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+
+h2, h3{
+    color: #ffffff
+}
+
+.top_two {
+    display: flex;
+}
+
+.top_two .image1 {
+    flex: 1;
+    margin: 10px 5px 5px 50px;
+}
+
+.top_two .image2 {
+    flex: 1;
+    margin: 10px 50px 5px 5px;
+}
+
+.top_two img{
+    transition: transform 0.3s ease-in-out;
+}
+
+.top_two img:hover {
+    transform: scale(1.05);
+}
+
+.merch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.merch h2 {
+    width: 100%;
+}
+
+.merch img {
+    flex: 1;
+    margin-right:50px;
+    margin-left:50px;
+    border-radius:15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.merch img:hover {
+    transform: scale(1.05);
+}
+
+.GAMES{
+    text-align: center;
+}
+
+.gamess{
+    display: flex;
+    text-align: center;
+}
+
+.gamess h2 {
+    width: 100%;
+}
+
+.gamess img{
+    margin-right:10px;
+    margin-left:10px;
+    border-radius:10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gamess img:hover {
+    transform: scale(1.05);
+}
